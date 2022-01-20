@@ -1,5 +1,5 @@
 const express = require('express');
-const { sequelize, Messages} = require('../models');
+const { sequelize, Messages} = require('./models');
 const path = require('path');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
